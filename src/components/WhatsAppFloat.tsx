@@ -7,7 +7,7 @@ export function buildWhatsAppUrl(message: string) {
 
 export function WhatsAppFloat() {
   const url = buildWhatsAppUrl(
-    "Bonjour TOP COM! 👋\nJe visite votre site et je souhaite un devis pour :\n",
+    "Bonjour TOP COM! 👋\nJe viens de visiter votre site et je souhaite avoir un devis pour :\n",
   );
   return (
     <a
